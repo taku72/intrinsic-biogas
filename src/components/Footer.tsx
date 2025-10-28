@@ -18,13 +18,13 @@ const services = [
 export default function Footer() {
   return (
     <footer className="bg-gray-900">
-      <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12 md:flex md:items-center md:justify-between lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
           {/* Company Info */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <Leaf className="h-8 w-8 text-primary-500" />
-              <span className="ml-2 text-xl font-bold text-white">Intrinsic Biogas</span>
+              <Leaf className="h-6 w-6 sm:h-8 sm:w-8 text-primary-500" />
+              <span className="ml-2 text-lg sm:text-xl font-bold text-white">Intrinsic Biogas</span>
             </Link>
             <p className="text-gray-300 text-sm mb-4">
               Leading provider of sustainable biogas solutions for homes, farms, and businesses. 
@@ -88,7 +88,7 @@ export default function Footer() {
       </div>
       
       <div className="border-t border-gray-800">
-        <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4 lg:px-8">
           <p className="text-center text-xs text-gray-400">
             &copy; 2024 Intrinsic Biogas. All rights reserved. | 
             <Link href="/privacy" className="hover:text-primary-500 transition-colors"> Privacy Policy</Link> | 
